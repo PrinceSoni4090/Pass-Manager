@@ -9,7 +9,7 @@ const Footer = () => {
           <span className='text-green-700'> Manager/&gt;</span>
           </div>
             <div className='flex justify-center items-center'>
-                Created with <img className='w-7 mx-2' src="icons/heart.png" alt="" /> by Prince Soni
+                Created by Prince Soni
             </div>
             
         </div>
