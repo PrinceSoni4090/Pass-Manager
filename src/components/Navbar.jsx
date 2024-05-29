@@ -16,10 +16,13 @@ const Navbar = () => {
             <a  className='hover:font-bold'href="#">Contacts</a>
         </li> */}
       </ul>
-      <button className='text-white bg-slate-500 my-5 rounded-full flex  justify-center items-center ring-slate-400 ring-1'>
-        <img className='invert w-10 p-1 px-1' src="/icons/github.svg" alt="github logo" /> 
-        <span className='font-bold px-3'>Github</span> 
-      </button>
+      <button
+          className='text-white bg-slate-500 my-5 rounded-full flex justify-center items-center ring-slate-400 ring-1'
+          onClick={() => window.open("https://github.com/PrinceSoni4090/passop")}>
+
+          <img className='invert w-10 p-1 px-1' src="/icons/github.svg" alt="github logo" />
+          <span className='font-bold px-3'>Github</span>
+        </button>
       </div>
     </nav>
   )
